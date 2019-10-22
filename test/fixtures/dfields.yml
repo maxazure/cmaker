@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  field_ame: MyString
+  field_type: MyString
+  is_required: false
+  is_show_in_list: false
+  is_editable: false
+  api: MyString
+  brick: one
+
+two:
+  field_ame: MyString
+  field_type: MyString
+  is_required: false
+  is_show_in_list: false
+  is_editable: false
+  api: MyString
+  brick: two
