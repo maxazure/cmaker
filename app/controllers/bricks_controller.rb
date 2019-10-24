@@ -47,6 +47,6 @@ class BricksController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def brick_params
-      params.require(:brick).permit(:name, :table_type, :name_plural, :parent_dir, :api_path)
+      params.require(:brick).permit(:name, :table_type, :name_plural, :parent_dir, :api_path, )
     end
 end
